@@ -2,14 +2,19 @@
 {
     class Hyundai : IProductCar
     {
-        public string CarColor
+        public string Color
         {
             get { return "White"; }
         }
 
-        public string GetCarModel
+        public string Model
         {
             get { return "HYUNDAI i30"; }
+        }
+
+        public string Name
+        {
+            get { return "Electric"; }
         }
     }
 }

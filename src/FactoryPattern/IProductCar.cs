@@ -2,7 +2,8 @@
 {
     public interface IProductCar
     { 
-        string GetCarModel { get; }
-        string CarColor { get; }
+        string Model { get; }
+        string Color { get; }
+        string Name { get; }
     }
 }

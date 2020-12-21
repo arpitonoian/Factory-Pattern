@@ -6,14 +6,19 @@ namespace FactoryPattern
 {
     class Nissan : IProductCar
     {
-        public string CarColor
+        public string Color
         {
             get { return "Blue"; }
         }
 
-        public string GetCarModel
+        public string Model
         {
             get { return "Nissan Leaf"; }
+        }
+
+        public string Name
+        {
+            get { return "Mechanic"; }
         }
     }
 }

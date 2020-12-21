@@ -10,10 +10,9 @@
                        return new Nissan();
                 case "tesla":
                     return new Tesla();
-                case " jaguar":
+                case "jaguar":
                     return new Jaguar();
                 default:
-                    System.Environment.Exit(0);
                     return null;
             }
         }

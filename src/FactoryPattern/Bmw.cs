@@ -2,16 +2,19 @@
 {
     class Bmw : IProductCar
     {
-        public string CarColor
+        public string Color
         {
             get { return "Yellow"; }
         }
 
-        public string GetCarModel
+        public string Model
         {
             get { return "BMW X7"; }
         }
+
+        public string Name
+        {
+            get { return "Mechanic"; }
+        }
     }
 }
-
-

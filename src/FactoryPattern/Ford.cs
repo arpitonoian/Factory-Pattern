@@ -2,14 +2,19 @@
 {
     class Ford : IProductCar
     {
-        public string CarColor
+        public string Color
         {
             get { return "Black"; }
         }
 
-        public string GetCarModel
+        public string Model
         {
             get { return "Ford Fiesta"; }
+        }
+
+        public string Name
+        {
+            get { return "Mechanic"; }
         }
     }
 }
